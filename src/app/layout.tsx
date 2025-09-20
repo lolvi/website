@@ -1,6 +1,5 @@
 'use client'
 import "./globals.css";
-import Head from 'next/head'
 import React, { useState } from 'react'
 import Header from '@/components/Header'
 import Image from 'next/image'
@@ -15,15 +14,16 @@ export default function RootLayout({
   const [showHero, setShowHero] = useState(true);
 
   return (
-    <>
-      <Head>
+    <html lang="es">
+      <head>
         <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <LayoutContext.Provider value={{ showHero, setShowHero: (val) => setShowHero(val) }}>
-        <Header displayHero={showHero} />
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <main>{children}</main>
-        </div>
+      </head>
+      <body>
+        <LayoutContext.Provider value={{ showHero, setShowHero: (val) => setShowHero(val) }}>
+          <Header displayHero={showHero} />
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <main>{children}</main>
+          </div>
         <footer
           style={{
             marginTop: `var(--space-5)` ,
@@ -76,7 +76,8 @@ export default function RootLayout({
             </div>
           </div>
         </footer>
-      </LayoutContext.Provider>
-    </>
+        </LayoutContext.Provider>
+      </body>
+    </html>
   );
 }
