@@ -3,7 +3,7 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 import { CheckCircle2, ArrowRight } from 'lucide-react';
 import bitacoraDemo from 'figma:asset/c765eb6b50847e17991d257dd88c75da18a926e4.png';
 
-const WHATSAPP_NUMBER = '1234567890'; // Replace with actual number
+const WHATSAPP_NUMBER = '+573160445500';
 
 export function HeroV2() {
   const handleWAClick = (intent: string) => {

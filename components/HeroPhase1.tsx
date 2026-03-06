@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 import { Button } from './ui/button';
 import { ArrowRight, PlayCircle } from 'lucide-react';
 
-const WHATSAPP_NUMBER = '1234567890';
+const WHATSAPP_NUMBER = '+573160445500';
 
 const WhatsAppIcon = ({ className }: { className?: string }) => (
   <svg 

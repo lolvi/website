@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 import { Heart, Shield, Zap, ArrowRight, ExternalLink } from 'lucide-react';
 import { Button } from './ui/button';
 
-const WHATSAPP_NUMBER = '1234567890';
+const WHATSAPP_NUMBER = '+573160445500';
 
 const footerLinks = [
   {

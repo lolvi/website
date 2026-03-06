@@ -3,7 +3,7 @@ import { Button } from './ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Badge } from './ui/badge';
 
-const WHATSAPP_NUMBER = '1234567890';
+const WHATSAPP_NUMBER = '+573160445500';
 
 const controlChips = [
   { id: 'preferencias', icon: Sliders, label: 'Editar preferencias' },

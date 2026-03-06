@@ -6,7 +6,7 @@ import { Button } from './ui/button';
 import { motion, AnimatePresence } from 'motion/react';
 import Link from 'next/link';
 
-const WHATSAPP_NUMBER = '1234567890';
+const WHATSAPP_NUMBER = '+573160445500';
 
 const menuItems = [
   { label: 'Tres pilares', href: '#pilares' },

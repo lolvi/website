@@ -2,7 +2,7 @@ import { Clock, CheckCircle, MessageCircle, AlertCircle } from 'lucide-react';
 import { Button } from './ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 
-const WHATSAPP_NUMBER = '1234567890';
+const WHATSAPP_NUMBER = '+573160445500';
 
 const cuidadoCards = [
   {

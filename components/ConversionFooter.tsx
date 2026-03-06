@@ -1,7 +1,7 @@
 import { Button } from './ui/button';
 import { Heart, Shield, BookOpen, Activity, Download, FileText } from 'lucide-react';
 
-const WHATSAPP_NUMBER = '1234567890';
+const WHATSAPP_NUMBER = '+573160445500';
 
 const footerLinks = [
   { id: 'pacto', label: 'Pacto de Cuidado', icon: Heart, href: '#' },

@@ -5,7 +5,7 @@ import { ArrowRight, Shield, Clock, ChevronDown } from 'lucide-react';
 import { motion, useScroll, useTransform } from 'motion/react';
 import bitacoraDemo from 'figma:asset/c765eb6b50847e17991d257dd88c75da18a926e4.png';
 
-const WHATSAPP_NUMBER = '1234567890';
+const WHATSAPP_NUMBER = '+573160445500';
 
 const trustMetrics = [
   { value: 0, suffix: '', label: 'PII incidents', color: 'compa-green' },
